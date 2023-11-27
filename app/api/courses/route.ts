@@ -12,7 +12,7 @@ export async function GET(req: Request) {
     return NextResponse.json(courses, { status: 200 });
   } catch (error) {
     console.log(error);
-    return NextResponse("Error getting courses", { status: 500 });
+    return new NextResponse("Error getting courses", { status: 500 });
   }
 }
 

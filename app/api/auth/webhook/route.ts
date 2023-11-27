@@ -74,7 +74,6 @@ export async function POST(req) {
   }
 
   const user: any = evt.data;
-  console.log(user, 'USER')
  
   const eventType = evt.type;
   if (eventType === 'user.created') {
@@ -124,7 +123,7 @@ export async function POST(req) {
   }
 
   if (eventType === 'user.updated') {
-    return NextResponse.json("User updated", { status: 201 });
+    return new NextResponse.json("User updated", { status: 201 });
   }
 
   if (eventType === 'user.deleted') {
@@ -132,8 +131,8 @@ export async function POST(req) {
       where: { clerkId: user.id },
     });
 
-    return NextResponse("User deleted", { status: 201 });
+    return new NextResponse("User deleted", { status: 201 });
   }
 
-  return NextResponse(null, { status: 200 });
+  return new NextResponse(null, { status: 200 });
 }
