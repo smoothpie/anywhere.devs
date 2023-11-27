@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url = env("DATABASE_URL")
+}
+
+model User {
+  id                      String  @id @default(auto()) @map("_id") @db.ObjectId
+  username                String  @unique
+  clerkId                 String  @unique
+  email                   String? @unique
+  avatar                  String?
+}
+
+model Course {
+  id                      String @id @default(auto()) @map("_id") @db.ObjectId
+  slug                    String @unique
+  title                   String
+  description             String
+  link                    String
+  category                String
+  price                   Price? // this could be a free course
+  platform                String // Coursera, Udemy, etc
+  author                  String
+  level                   String
+  certificate             Boolean
+  createdAt               DateTime @default(now())
+}
+
+type Price {
+  currency                String
+  amount                  Float
+  type                    String // flat / monthly
+}

@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-top: 1px solid #efefef;
+  a {
+    text-decoration: underline;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

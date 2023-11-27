@@ -1,0 +1,12 @@
+.container {
+  margin-top: 0.5rem;
+  :global(.select-control--is-focused) {
+    border-color: #000;
+  }
+  :global(.select__option:hover) {
+    background-color: #efefef;
+  }
+  :global(.select__option--is-selected:hover) {
+    background-color: #000;
+  }
+}

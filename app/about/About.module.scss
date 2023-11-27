@@ -1,0 +1,41 @@
+.container {
+  flex: 1;
+  padding: 1.5rem;
+  min-height: calc(100vh - 190px);
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  ul {
+    margin: 2rem 0;
+    padding-left: 2rem;
+
+    li {
+      margin-bottom: 1rem;
+
+      a {
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

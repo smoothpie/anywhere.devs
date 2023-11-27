@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  min-height: calc(100vh - 190px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.deleteIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+  background-color: rgb(240, 199, 199);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}

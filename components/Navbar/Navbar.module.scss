@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  a:hover {
+    opacity: 0.6;
+  }
+}
+
+.companyName {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  :global(.cl-userButtonTrigger) {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  :global(.cl-avatarBox) {
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+  }
+}
+
+.authButtons {
+  display: flex;
+  gap: 0.75rem;
+
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  a:last-child button {
+    color: #fff;
+    background-color: #000;
+  }
+}
