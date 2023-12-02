@@ -1,5 +1,3 @@
-
-
 import { Webhook } from 'svix'
 import { headers } from 'next/headers'
 import { NextResponse } from "next/server";
@@ -95,19 +93,6 @@ export async function POST(req: Request) {
       const formattedUsername = formatUsername(username);
       // check if user with this username exists
       const finalUsername = await getUniqueUserName(formattedUsername, 0);
-
-      let displayName;
-      if (user.first_name && user.last_name) {
-        displayName = `${user.first_name} ${user.last_name}`
-      } else if (user.username) {
-        displayName = user.username
-      } else if (user.preferred_username) {
-        displayName = user.preferred_username
-      } else if (user.name) {
-        displayName = user.name
-      } else {
-        displayName = userEmail && userEmail.split('@')[0] || ""
-      }
 
       const createdUser = await prisma.user.create({
         data: {
