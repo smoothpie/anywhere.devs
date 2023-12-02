@@ -1,6 +1,6 @@
 import EditCoursePageClient from "./page.client";
 
-async function getCourse(id) {
+async function getCourse(id: string) {
   const res = await fetch(`${process.env.CLIENT_URL}/api/courses/${id}`, { cache: 'no-store' });
 
   if (res.ok) {
@@ -13,7 +13,13 @@ async function getCourse(id) {
   }
 }
 
-const EditCoursePage = async ({ params }) => {
+type EditCoursePageProps = {
+  params: {
+    courseId: string;
+  }
+}
+
+const EditCoursePage = async ({ params }: EditCoursePageProps) => {
   const currentCourse = await getCourse(params.courseId);
   
   return (

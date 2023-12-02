@@ -2,7 +2,19 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './SortSelect.module.scss';
 
-export default function SortSelect(props) {
+type Option = {
+  value: string;
+  label: string;
+};
+
+type SortSelectProps = {
+  options: Option[];
+  style?: React.CSSProperties;
+  onSelect?: (option: { value: string; label: string }) => void;
+  defaultValue?: { value: string; label: string };
+}
+
+export default function SortSelect(props: SortSelectProps) {
   const { options, style, onSelect, defaultValue } = props;
 
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
@@ -14,7 +26,7 @@ export default function SortSelect(props) {
     }
   }, [defaultValue]);
 
-  const handleOptionSelect = (option) => {
+  const handleOptionSelect = (option: Option) => {
     if (option.value === undefined) {
       setSelectedOption(options[0]);
     } else {

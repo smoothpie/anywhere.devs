@@ -3,9 +3,9 @@ import s from './Input.module.scss'
 type InputProps = {
   type?: string
   name: string
-  value?: string
-  onChange: (e: any) => void
-  onWheel?: (e: any) => void
+  value?: string | number
+  onChange: React.ChangeEventHandler<any>
+  onWheel?: React.WheelEventHandler<HTMLInputElement>
 }
 
 const Input = ({ type, name, value, onChange, onWheel }: InputProps) => {

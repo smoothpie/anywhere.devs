@@ -1,20 +1,34 @@
 "use client"
 import { useState } from 'react';
-import { useRouter } from 'next/navigation'
 import Input from '../../../../components/Input';
 import Textarea from '../../../../components/Textarea';
 import Select from '../../../../components/Select';
 import { categoryOptions, currencyOptions, priceTypeOptions, platformOptions, levelOptions } from '../../constants';
+import { Course, CourseFormValues } from '../../../../types/course';
 import s from './CourseForm.module.scss';
 
-const CourseForm = ({ initialValues, onSubmit }) => {
-  const router = useRouter()
+type CourseFormProps = {
+  initialValues?: CourseFormValues;
+  onSubmit: (course: CourseFormValues) => void;
+}
+
+type FormErrors = {
+  title?: string;
+  slug?: string;
+  description?: string;
+  link?: string;
+  category?: string;
+  platform?: string;
+  level?: string;
+}
+
+const CourseForm = ({ initialValues, onSubmit }: CourseFormProps) => {
   const [course, setCourse] = useState(initialValues || {
     title: '',
     slug: '',
     description: '',
     link: '',
-    category: null,
+    category: "web-development",
     isPaid: false,
     price: null,
     platform: null,
@@ -22,15 +36,15 @@ const CourseForm = ({ initialValues, onSubmit }) => {
     level: null,
     certificate: false,
   });
-  const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState<FormErrors>({});
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = event.target;
-    let updatedCourse;
+    let updatedCourse: CourseFormValues;
     if (name === 'price[amount]') {
       updatedCourse = {
         ...course,
-        price: { ...course.price, amount: value }
+        price: { ...course.price, amount: Number(value) }
       };
     } else {
       updatedCourse = {
@@ -44,8 +58,8 @@ const CourseForm = ({ initialValues, onSubmit }) => {
     }
   };
 
-  const handleSelect = (name, value) => {
-    let updatedCourse;
+  const handleSelect = (name: string, value: string) => {
+    let updatedCourse: CourseFormValues;
     if (name.includes('price')) {
       const parsedName = name.split('[')[1].split(']')[0];
       updatedCourse = {
@@ -61,8 +75,8 @@ const CourseForm = ({ initialValues, onSubmit }) => {
     }
   }
 
-  const validateForm = (courseData) => {
-    let newErrors = {};
+  const validateForm = (courseData: CourseFormValues) => {
+    let newErrors: FormErrors = {};
 
     if (!courseData.title) newErrors.title = 'Title is required.';
     if (!courseData.slug) newErrors.slug = 'URL slug is required.';
@@ -75,7 +89,7 @@ const CourseForm = ({ initialValues, onSubmit }) => {
     return newErrors;
   };
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.SyntheticEvent<HTMLFormElement, SubmitEvent>) => {
     event.preventDefault();
 
     const newErrors = validateForm(course);
@@ -91,7 +105,7 @@ const CourseForm = ({ initialValues, onSubmit }) => {
     <form className={s.form} onSubmit={handleSubmit}>
       <div className={s.field}>
         <label htmlFor="title">Title:</label>
-        <Input id="title" name="title" value={course.title} onChange={handleInputChange} />
+        <Input name="title" value={course.title} onChange={handleInputChange} />
         {errors.title && <p className={s.error}>{errors.title}</p>}
       </div>
     
@@ -157,7 +171,7 @@ const CourseForm = ({ initialValues, onSubmit }) => {
 
           <div className={s.field}>
             <label htmlFor="amount">Amount:</label>
-            <Input type="number" name="price[amount]" value={course.price?.amount} onChange={handleInputChange} min="0" step="0.01" />
+            <Input type="number" name="price[amount]" value={course.price?.amount} onChange={handleInputChange} />
           </div>
         </>
       )}
@@ -177,7 +191,7 @@ const CourseForm = ({ initialValues, onSubmit }) => {
 
       <div className={s.field}>
         <label htmlFor="author">Author:</label>
-        <Input name="author" value={course.author} onChange={handleInputChange} required />
+        <Input name="author" value={course.author} onChange={handleInputChange} />
       </div>
 
       <div className={s.field}>

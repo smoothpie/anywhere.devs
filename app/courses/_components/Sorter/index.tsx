@@ -2,10 +2,20 @@ import { useState } from 'react';
 import SortSelect from '../../../../components/SortSelect';
 import { sortOptions } from '../../constants';
 
-const Sorter = ({ filteredResults, setFilteredResults }) => {
+type SorterProps = {
+  filteredResults: any[];
+  setFilteredResults: (results: any[]) => void;
+}
+
+type SortOption = {
+  label: string;
+  value: string;
+}
+
+const Sorter = ({ filteredResults, setFilteredResults }: SorterProps) => {
   const [sortBy, setSortBy] = useState<any>(sortOptions[0]);
 
-  const sortResults = (sortBy) => {
+  const sortResults = (sortBy: SortOption) => {
     const sortedResults = filteredResults.sort((a, b) => {
       if (sortBy.value === "az") {
         return a.title.localeCompare(b.title);

@@ -1,4 +1,4 @@
-export const shortenDescription = (description) => {
+export const shortenDescription = (description: string) => {
   const maxDescriptionLength = 110;
   const shortenedDescription =
     description.length > maxDescriptionLength
@@ -7,7 +7,13 @@ export const shortenDescription = (description) => {
   return shortenedDescription;
 };
 
-export const formatPrice = (price) => {
+type Price = {
+  type?: string;
+  amount?: number;
+  currency?: string;
+}
+
+export const formatPrice = (price: Price | undefined) => {
   if (!price) {
     return "Free";
   }

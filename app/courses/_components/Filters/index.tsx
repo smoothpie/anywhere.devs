@@ -1,10 +1,17 @@
 import { useEffect } from 'react';
-import Input from '../../../../components/Input';
 import Select from '../../../../components/Select';
 import { categoryOptions, platformOptions, levelOptions } from '../../constants';
+import { Course } from '../../../../types/course';
 import s from './Filters.module.scss';
 
-const Filters = ({ courses, filterValues, setFilterValues, setFilteredResults }) => {
+type FiltersProps = {
+  courses: Course[];
+  filterValues: any;
+  setFilterValues: (values: any) => void;
+  setFilteredResults: (results: any[]) => void;
+}
+
+const Filters = ({ courses, filterValues, setFilterValues, setFilteredResults }: FiltersProps) => {
   useEffect(() => {
     setFilteredResults(courses.filter(v => {
       let match = true;

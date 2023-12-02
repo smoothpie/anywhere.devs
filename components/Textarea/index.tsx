@@ -3,7 +3,7 @@ import s from './Textarea.module.scss'
 type TextareaProps = {
   name: string
   value?: string
-  onChange: (e: any) => void
+  onChange: React.ChangeEventHandler<any>
   rows?: number
 }
 

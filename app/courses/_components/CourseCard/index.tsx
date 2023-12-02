@@ -2,9 +2,15 @@ import Link from "next/link";
 import Image from 'next/image';
 import { shortenDescription, formatPrice } from '../../utils';
 import { categoryOptions } from '../../constants';
+import { Course } from '../../../../types/course';
 import s from './CourseCard.module.scss';
 
-const CourseCard = ({ course, isAdmin }) => {
+type CourseCardProps = {
+  course: Course;
+  isAdmin?: boolean;
+}
+
+const CourseCard = ({ course, isAdmin }: CourseCardProps) => {
   const categoryLabel = categoryOptions.find((option) => option.value === course.category)?.label;
   return (
     <Link href={course.link || "/"} target="_blank">

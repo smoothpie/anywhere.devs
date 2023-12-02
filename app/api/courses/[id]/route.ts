@@ -1,8 +1,8 @@
 import { getAuth } from "@clerk/nextjs/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import prisma from "../../../../lib/prisma";
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   try {
     const courseId = params.id;
     const course = await prisma.course.findUnique({
@@ -17,7 +17,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
   }
 }
 
-export async function PATCH(req, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
   const data = await req.json();
   const courseId = params.id;
 
@@ -45,7 +45,7 @@ export async function PATCH(req, { params }: { params: { id: string } }) {
   }
 }
 
-export async function DELETE(req, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
   try {
     const { userId, sessionClaims } = getAuth(req);
 
@@ -62,7 +62,7 @@ export async function DELETE(req, { params }: { params: { id: string } }) {
 
     const courseId = params.id;
 
-    const deletedCourse = await prisma.course.delete({ where: { id: courseId } });
+    await prisma.course.delete({ where: { id: courseId } });
     return new NextResponse(null, { status: 200 });
   } catch (error) {
     console.log(error);

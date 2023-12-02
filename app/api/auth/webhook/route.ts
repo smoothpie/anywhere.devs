@@ -19,7 +19,7 @@ async function getUniqueUserName(originalUsername: string, num: number): Promise
   return username
 }
 
-function formatUsername(username) {
+function formatUsername(username: string) {
   const pattern = /^[a-zA-Z0-9-_]+$/;
 
   if (pattern.test(username)) {
@@ -29,7 +29,7 @@ function formatUsername(username) {
   }
 }
  
-export async function POST(req) {
+export async function POST(req: Request) {
   // You can find this in the Clerk Dashboard -> Webhooks -> choose the webhook
   const WEBHOOK_SECRET = process.env.CLERK_WEBHOOK_SECRET
  
@@ -123,7 +123,7 @@ export async function POST(req) {
   }
 
   if (eventType === 'user.updated') {
-    return new NextResponse.json("User updated", { status: 201 });
+    return NextResponse.json("User updated", { status: 201 });
   }
 
   if (eventType === 'user.deleted') {

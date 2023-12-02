@@ -4,8 +4,8 @@ import s from './Select.module.scss';
 type SelectProps = {
   name: string
   options: { value: string, label: string }[]
-  defaultValue?: { value: string, label: string }
-  value: string
+  defaultValue?: { value: string, label: string };
+  value?: { value: string, label: string }
   onChange: (e: any) => void
   isSearchable?: boolean
   isClearable?: boolean

@@ -1,18 +1,18 @@
 const { PrismaClient } = require('@prisma/client');
-const prisma = new PrismaClient()
+const prismaClient = new PrismaClient();
 const courses = require('../data/courses.json');
 
 async function main() {
-  await prisma.course.createMany({
+  await prismaClient.course.createMany({
     data: courses
   });
 }
 main()
   .then(async () => {
-    await prisma.$disconnect()
+    await prismaClient.$disconnect()
   })
   .catch(async (e) => {
     console.error(e)
-    await prisma.$disconnect()
+    await prismaClient.$disconnect()
     process.exit(1)
   })

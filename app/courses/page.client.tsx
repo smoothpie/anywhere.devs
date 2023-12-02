@@ -5,10 +5,14 @@ import Link from "next/link";
 import Sorter from './_components/Sorter';
 import Filters from './_components/Filters';
 import CourseCard from './_components/CourseCard';
-import { sortOptions } from './constants';
+import { Course } from '../../types/course';
 import s from './Courses.module.scss';
 
-const CoursesPageClient = ({ courses }) => {
+type CoursesProps = {
+  courses: Course[];
+}
+
+const CoursesPageClient = ({ courses }: CoursesProps) => {
   const [filterValues, setFilterValues] = useState<any>({});
   const [filteredResults, setFilteredResults] = useState<any[]>(courses);
   const { user } = useUser();
@@ -45,7 +49,7 @@ const CoursesPageClient = ({ courses }) => {
 
         <div className={s.courses}>
           {filteredResults.map((course) => (
-            <CourseCard key={course.id} course={course} isAdmin={isAdmin} />
+            <CourseCard key={course.id} course={course} isAdmin={!!isAdmin} />
           ))}
         </div>
       </section>

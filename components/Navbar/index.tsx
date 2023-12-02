@@ -4,7 +4,7 @@ import { useUser, UserButton } from "@clerk/nextjs";
 import s from "./Navbar.module.scss";
 
 const Navbar = () => {
-  const { isLoaded, isSignedIn, user } = useUser();
+  const { isSignedIn } = useUser();
   return (
     <nav className={s.nav}>
       <Link href="/">

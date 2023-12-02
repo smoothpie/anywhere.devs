@@ -1,12 +1,13 @@
 "use client"
 import { useRouter } from 'next/navigation'
 import CourseForm from '../_components/CourseForm';
+import { CourseFormValues } from '@/types/course';
 import s from './Add.module.scss';
 
 const AddCoursePage = () => {
   const router = useRouter();
 
-  const handleSubmit = async (courseData) => {
+  const handleSubmit = async (courseData: CourseFormValues) => {
     const { isPaid, ...rest } = courseData;
     const res = await fetch('/api/courses', {
       method: 'POST',

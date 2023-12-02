@@ -3,11 +3,16 @@ import { useRouter } from 'next/navigation'
 import Image from 'next/image';
 import CourseForm from '../../_components/CourseForm';
 import s from './EditCourse.module.scss';
+import { Course, CourseFormValues } from '@/types/course';
 
-const EditCoursePageClient = ({ currentCourse }) => {
+type EditCourseProps = {
+  currentCourse: Course;
+}
+
+const EditCoursePageClient = ({ currentCourse }: EditCourseProps) => {
   const router = useRouter()
 
-  const handleSubmit = async (courseData) => {
+  const handleSubmit = async (courseData: CourseFormValues) => {
     const { id, isPaid, ...rest } = courseData;
     const res = await fetch(`/api/courses/${id}`, {
       method: 'PATCH',
@@ -24,7 +29,7 @@ const EditCoursePageClient = ({ currentCourse }) => {
   }
 
   const handleDelete = async () => {
-    const res = await fetch(`/api/courses/${course.id}`, {
+    const res = await fetch(`/api/courses/${currentCourse.id}`, {
       method: 'DELETE',
     });
     if (res.ok) {
