@@ -1,4 +1,4 @@
-Hi! This is a project created during my Next.js, MongoDB, Prisma and Clerk tutorial. You can find it here: ....
+Hi! This is a project created during my Next.js, MongoDB, Prisma and Clerk tutorial. You can find it [here](https://course-aggregator-nextjs.vercel.app/)
 
 ## Getting Started
 
