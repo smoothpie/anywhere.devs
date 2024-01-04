@@ -4,7 +4,7 @@ import Input from '../../../../components/Input';
 import Textarea from '../../../../components/Textarea';
 import Select from '../../../../components/Select';
 import { categoryOptions, currencyOptions, priceTypeOptions, platformOptions, levelOptions } from '../../constants';
-import { Course, CourseFormValues } from '../../../../types/course';
+import { CourseFormValues } from '../../../../types/course';
 import s from './CourseForm.module.scss';
 
 type CourseFormProps = {
