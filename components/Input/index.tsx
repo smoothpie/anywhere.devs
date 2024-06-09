@@ -6,9 +6,11 @@ type InputProps = {
   value?: string | number
   onChange: React.ChangeEventHandler<any>
   onWheel?: React.WheelEventHandler<HTMLInputElement>
+  placeholder?: string
+  checked?: boolean
 }
 
-const Input = ({ type, name, value, onChange, onWheel }: InputProps) => {
+const Input = ({ type, name, value, onChange, onWheel, placeholder, checked }: InputProps) => {
   return (
     <input
       className={s.input}
@@ -17,6 +19,8 @@ const Input = ({ type, name, value, onChange, onWheel }: InputProps) => {
       value={value}
       onChange={onChange}
       onWheel={onWheel}
+      placeholder={placeholder}
+      checked={checked}
     />
   )
 }

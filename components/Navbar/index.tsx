@@ -8,12 +8,18 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <Link href="/">
-        <div className={s.companyName}>Coding school</div>
+        <div className={s.companyName}>anywhere devs</div>
       </Link>
       <div className={s.links}>
-        <Link href="/about">About</Link>
-        <Link href="/courses">Courses</Link>
-        {isSignedIn ? (
+        <Link href="/">Jobs</Link>
+        <Link href="/companies">Companies</Link>
+        {/* <Link href="/about">About</Link> */}
+        {/* <Link href="/blog">Blog</Link> */}
+        {/* <Link href="/membership">Newsletter</Link>
+        <Link href="/jobs/new">
+          <button>Post a job</button>
+        </Link> */}
+        {/* {isSignedIn ? (
           <UserButton afterSignOutUrl="/" />
         ) : (
           <div className={s.authButtons}>
@@ -24,7 +30,7 @@ const Navbar = () => {
               <button>Sign up</button>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </nav>
   )

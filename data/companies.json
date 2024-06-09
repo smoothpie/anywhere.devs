@@ -1,0 +1,628 @@
+[
+  {
+    "id": 1,
+    "name": "Coder",
+    "website": "https://coder.com/",
+    "logo": "/logos/coder.jpeg",
+    "description": "Self-hosted enterprise dev environments",
+    "headquarters": "US, International",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefits": {
+      "health": {
+        "medical": "Generous medical / dental / vision coverage",
+        "fertility": "Fertility benefits through Carrot Fertility",
+        "parentalLeave": "Generous parental leave"
+      },
+      "workLife": {
+        "flexibleTimeOff": true,
+        "remoteWork": true,
+        "annualWorkstationAllowance": "Annual workstation allowance for your home office",
+        "paidSabbatical": "Paid sabbatical after 5 years"
+      },
+      "other": {
+        "401kMatch": "4% 401(k) match",
+        "monthlyPerksStipend": "Monthly “perks” stipend for wellness, learning and development, travel, etc."
+      },
+      "additional": ""
+    },
+    "stack": "Go, Typescript, React, Figma, Terraform, Linux",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "We believe that the interview process should be consistent and enjoyable. Our goal is to complete the entire process in two full weeks if schedules allow. During this time, you will be able to meet a mix of individual contributors, managers, and a company leader. If you interview for a position requiring a take-home assessment, we will compensate you for your work and time.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Coder-EI_IE1985618.11,16.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/coderhq/",
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "name": "Hookdeck",
+    "logo": "/logos/hookdeck.jpeg",
+    "website": "https://hookdeck.com/",
+    "description": "A reliable event gateway for asynchronous applications. Receive, process, and deliver messages across your event-driven architecture with Hookdeck's platform for engineering teams.",
+    "headquarters": "Canada",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "A fully remote team and culture, A culture of learning, wellness, and growth, A flexible work schedule; we value trust and ownership when it comes to getting work done, Stock option plan",
+    "stack": "Kubernetes, server-less architecture (GCP), Postgres and NodeJS and React (both in Typescript)",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Hookdeck-EI_IE3244377.11,19.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/hookdeck/",
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Prisma",
+    "logo": "/logos/prisma.jpeg",
+    "website": "https://www.prisma.io/",
+    "description": "Prisma is the database toolkit for TypeScript & Node.js. It helps app developers build faster and make fewer errors with an open-source ORM for PostgreSQL, MySQL, and SQLite.",
+    "headquarters": "Germany",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive base salary, As an early-stage startup we also provide competitive stock-option grants with a exercise window of up to 10 years, 24 days paid vacation per year, 4 mental health days per year, Fully paid parental leave up to 20 weeks, Generous tech budget to make sure you have all the hardware that you need, Ergonomic chair subsidy, Access to your local co-working space if you prefer to work from an external location to your home, [US] Health, Dental, Vision + 401k Matching",
+    "stack": "TypeScript, Node.js, Rust, Go, PostgreSQL, Kubernetes, AWS, GCP",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Prisma-EI_IE3244377.11,17.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/prisma-io/",
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "name": "Angle Health",
+    "logo": "/logos/angle-health.jpeg",
+    "website": "https://www.anglehealth.com/",
+    "description": "Angle Health is a new kind of health insurance company. We’re building a health plan that’s designed to be simple, transparent, and fair. We’re using technology to make health insurance easier to understand, easier to use, and more affordable.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Angle-Health-EI_IE3244377.11,23.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/anglehealth/",
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "name": "Shift4",
+    "logo": "/logos/shift4.jpeg",
+    "website": "https://www.shift4.com/",
+    "description": "Shift4 is the leader in secure payment processing solutions, powering the top point-of-sale and software providers across numerous verticals, including food and beverage, hospitality, lodging, gaming, retail, and e-commerce.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Shift4-Payments-EI_IE3244377.11,26.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/shift4/",
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "name": "Pipe",
+    "logo": "/logos/pipe.jpeg",
+    "website": "https://pipe.com/",
+    "description": "Pipe is a platform that enables companies to grow their subscription revenue without debt or dilution. We do this by giving companies access to the capital they need to grow, based on their existing subscription revenue.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Pipe-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/pipetechnologies/",
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "name": "Trusted Shops",
+    "logo": "/logos/trusted-shops.jpeg",
+    "website": "https://www.trustedshops.com/",
+    "description": "Trusted Shops develops SaaS solutions for over 30 million users and 30.000 companies all over Europe. Our product suite includes products such as the Trustmark, buyer protection and the experience feedback platform eTrusted. With our products we pursue the mission to enable trust between people and businesses in the digital age over the last 20 years.",
+    "headquarters": "Cologne, Germany",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Trusted-Shops-EI_IE3244377.11,23.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/trustedshops/",
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "name": "imgix",
+    "logo": "/logos/imgix.jpeg",
+    "website": "https://www.imgix.com/",
+    "description": "imgix is a chief platform for real-time image management, optimization, and delivery services. Our innovative technology empowers businesses deliver high-quality visual experiences to their customers across various platforms and devices, anywhere in the world.",
+    "headquarters": "San Francisco, US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-imgix-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/imgix/",
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "name": "Ex Populus",
+    "logo": "/logos/ex-populus.jpeg",
+    "website": "https://www.expopulus.com/",
+    "description": "Ex Populus is a leading game development studio with industry veterans from acclaimed companies like Pixar, Ubisoft, Activision, Blizzard, and more. Currently developing two highly anticipated games, Final Form and LAMOverse, the studio is a trailblazer in deploying games on the Xai Blockchain.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Ex-Populus-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/ex-populus/",
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "name": "Qonto",
+    "logo": "/logos/qonto.png",
+    "website": "https://www.qonto.com/",
+    "description": "Making day-to-day banking easier for SMEs and freelancers thanks to an online business account that's combined with invoicing, bookkeeping and spend management tools. Thanks to its innovative product, highly reactive 24/7 customer support and clear pricing, Qonto has become the leader in its market.",
+    "headquarters": "France",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/qonto/",
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "name": "DeepScenario",
+    "logo": "/logos/deepscenario.jpeg",
+    "website": "https://www.deepscenario.com/",
+    "description": "DeepScenario is a platform that enables companies to build and deploy AI models for autonomous vehicles. We provide a suite of tools for data collection, model training, and deployment.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/deepscenario/",
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "name": "Semgrep",
+    "logo": "/logos/semgrep.jpeg",
+    "website": "https://semgrep.dev/",
+    "description": "Our mission is to make world-class software security available to everyone. This means building program analysis tools that are open source, easy to use, powerful, and fast. It also means building a team with security expertise and a passion for great developer experiences. Most of all, it means working with honesty and respect in a diverse community of dreamers and builders. We’ve redefined static analysis tooling by committing to all of these, and turned our project, Semgrep, into an essential safeguard for code at Snowflake, Dropbox, and more.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/semgrep/",
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "name": "WorkOS",
+    "logo": "/logos/workos.jpeg",
+    "website": "https://workos.com/",
+    "description": "WorkOS builds tools for developers to help with authentication, identity, authorization, and enterprise-readiness. We're a fully-distributed team with employees across US and EU time zones. We're well-funded, having raised an $80M Series B. Our fast-growing customer base includes hundreds of the most successful SaaS companies like Webflow, Vercel, Brex, PlanetScale, Loom, and Drata.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/workos-inc/",
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "name": "minware",
+    "logo": "/logos/minware.jpeg",
+    "website": "https://minware.com/",
+    "description": "minware provides engineering business metrics that show the true cost of engineering impediments. This helps organizations make better decisions with stronger alignment between engineers and executives.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/minware/",
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "name": "Attio",
+    "logo": "/logos/attio.jpeg",
+    "website": "https://attio.com/",
+    "description": "Attio is the CRM of the future: a living, breathing platform that connects with a customer’s GTM stack and evolves with them as they grow – from zero to IPO and beyond.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/attio/",
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "name": "SwissBorg",
+    "logo": "/logos/swissborg.jpeg",
+    "website": "https://swissborg.com/",
+    "description": "SwissBorg is Europe’s fastest-growing Crypto app and since launching in 2020, our innovative app has taken the market by storm! We currently offer 70+ cryptocurrencies, operate in 100+ countries, and have a community base of 650,000+ users.",
+    "headquarters": "Switzerland",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/swissborg/",
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "name": "Toggl",
+    "logo": "/logos/toggl.jpeg",
+    "website": "https://toggl.com/",
+    "description": "Give your team a time tracker they’ll love, make confident data-backed decisions and focus on the work that matters most.",
+    "headquarters": "Estonia",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/toggl/",
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "name": "Upstash",
+    "logo": "/logos/upstash.jpeg",
+    "website": "https://upstash.com/",
+    "description": "At Upstash, we are building the next generation data platform for the serverless and edge era. Our cloud platform lets users deploy data services in seconds and immediately start using them.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/upstash/",
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "name": "Instinct",
+    "logo": "/logos/instinct.jpeg",
+    "website": "https://instinct.vet/",
+    "description": "Instinct Science is an animal health software company that helps the world’s leading veterinary practices enhance patient care, improve staff efficiency, and minimize burnout. Our easy-to-use platform acts as the nerve center for veterinarians, veterinary nurses, and support staff alike, fostering seamless collaboration across teams.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/instinct-science/",
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "name": "Buffer",
+    "logo": "/logos/buffer.jpeg",
+    "website": "https://buffer.com/",
+    "description": "At Buffer, we make social media and brand building software for small businesses, creators, and individuals. Our mission is to provide essential tools to help small businesses get off the ground and grow. Through exceptional customer service and uplifting content, we help our customers believe they can succeed and do good along the way.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/bufferapp/",
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "name": "GitBook",
+    "logo": "/logos/gitbook.jpeg",
+    "website": "https://www.gitbook.com/",
+    "description": "Centralize your team’s knowledge, sync with your codebase, and create beautiful documentation your customers and teams will love",
+    "headquarters": "France",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/gitbook/",
+    "notes": ""
+  },
+  {
+    "id": 22,
+    "name": "PostHog",
+    "logo": "/logos/posthog.jpeg",
+    "website": "https://posthog.com/",
+    "description": "PostHog is an open-source product analytics platform. We help companies understand how their users interact with their products, so they can make better decisions and build better products.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/posthog/",
+    "notes": ""
+  },
+  {
+    "id": 23,
+    "name": "Linear",
+    "logo": "/logos/linear.jpeg",
+    "website": "https://linear.app/",
+    "description": "At Linear, we are on a mission to bring magic back to software. To empower product teams to do their best work, we are building an issue tracking and project management tool that combines UI elegance with world-class performance. Founded in 2019, Linear has become the platform of choice for thousands of high-impact companies to build their products better.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/linearapp/",
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "name": "Socious",
+    "logo": "/logos/socious.jpeg",
+    "website": "https://www.socious.com/",
+    "description": "Socious is a talent marketplace that makes impact work accessible and transparent; we build connections between purpose-driven individuals and impact organizations through AI matching. By leveraging blockchain technology, we make social/environmental impact work traceable and reward contributions.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/socious-io/",
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "name": "Spacelift",
+    "logo": "/logos/spacelift.jpeg",
+    "website": "https://spacelift.io/",
+    "description": "A sophisticated CI/CD platform for OpenTofu, Terraform, Terragrunt, CloudFormation, Pulumi, Kubernetes, and Ansible",
+    "headquarters": "Germany",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/spacelift-io/",
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "name": "Railway",
+    "logo": "/logos/railway.jpeg",
+    "website": "https://railway.app/",
+    "description": "At Railway, we make it extremely simple for engineers to deploy logic without thinking about servers. Our goal is to make developers orders of magnitude more efficient by becoming the operating system for modern development.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/railwayapp/",
+    "notes": ""
+  },
+  {
+    "id": 27,
+    "name": "Medusa",
+    "logo": "/logos/medusa.jpeg",
+    "website": "https://medusajs.com/",
+    "description": "The most popular open-source platform for commerce. Use Medusa as your foundation and focus on building the customizations that move the needle.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/medusajs/",
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "name": "PetsApp",
+    "logo": "/logos/petsapp.jpeg",
+    "website": "https://petsapp.com/",
+    "description": "Pet owners use PetsApp to chat with the vet team that they know and trust. They can get advice on any issues their furry friends are having.",
+    "headquarters": "UK",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/petsapp/",
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "name": "Wander",
+    "logo": "/logos/wander.jpeg",
+    "website": "https://wander.io/",
+    "description": "Book a Wander with inspiring views, hotel-grade amenities, dreamy beds, top-tier cleaning and 24/7 concierge service. It’s a vacation home, but better.",
+    "headquarters": "US",
+    "hiresIn": "",
+    "sponsorVisa": false,
+    "tags": [],
+    "benefitsDescription": "Competitive salary, Equity in a fast-growing startup, Health, dental, and vision insurance, 401(k) with company match, Unlimited vacation policy, Remote-first work environment, Flexible work hours, Generous parental leave policy, Professional development budget, Team retreats and offsites, Employee referral program, Employee wellness program, Employee assistance program, Employee stock purchase plan",
+    "stack": "React, TypeScript, Node.js, GraphQL, AWS, PostgreSQL",
+    "dateAdded": "2024-06-01T00:00:00.000Z",
+    "process": "Our interview process is designed to be as transparent and fair as possible. We want to make sure that you have a clear understanding of what to expect and that you have the opportunity to ask questions and get to know us. We aim to complete the entire process in two weeks.",
+    "glassdoor": {
+      "rating": 4.5,
+      "link": "https://www.glassdoor.com/Overview/Working-at-Qonto-EI_IE3244377.11,15.htm"
+    },
+    "linkedin": "https://www.linkedin.com/company/wandercom/",
+    "notes": ""
+  }
+]

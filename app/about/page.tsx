@@ -3,13 +3,12 @@ import s from './About.module.scss';
 const AboutPage = () => (
   <div className={s.container}>
     <h1>About the project</h1>
+    <p>Hi! I'm Karina. I have a lot of bookmarks, and I decided you could benefit from them too.</p>
     <p>
-      This project is a demo of how to use MongoDB, Prisma and Clerk to build a fullstack Next.js app.
+      Basically, I was helping my husband to find a remote job, so here we are.
     </p>
-    <p>
-      And also, a useful resource for people looking for these courses :D
-    </p>
-    <p>
+    {/* <p>This database will be updated twice a month. Why should you trust me? For the past two years I've been working on my startup Chill Subs, which is a constantly updated database of opportunities for writers.</p> */}
+    {/* <p>
       It includes:
     </p>
     <ul>
@@ -19,10 +18,10 @@ const AboutPage = () => (
       <li>Protected API routes</li>
       <li>As admins, we'll be able to manage the course listings</li>
       <li>Deploying the app to Vercel</li>
-    </ul>
-    <p>
-      The source code for this project is available on <a href="https://github.com" target="_blank">GitHub</a>.
-    </p>
+    </ul> */}
+    
+    <h3>About me</h3>
+    <p>bla bla</p>
   </div>
 )
 

@@ -1,16 +1,21 @@
-import Link from 'next/link'
-import styles from './Page.module.scss'
+import jobs from '../data/jobs.json';
+import companies from '../data/companies.json'
+import ResourcesPageClient from "./jobs/page.client";
 
-export default function HomePage() {
+const ResourcesPage = async () => {
+  // const jobs = await getJobs()
+
+  const jobsWithCompanies = jobs.map(job => {
+    const company = companies.find(c => c.id === job.companyId);
+    return {
+      ...job,
+      company
+    }
+  })
+  
   return (
-    <main className={styles.main}>
-      <header className={styles.header}>
-        <h1>Coding School</h1>
-        <p>Searchable collection of some random coding courses. Created during a Next.js, MongoDB, Prisma and Clerk tutorial</p>
-        <Link href="/courses">
-          <button>Browse courses</button>
-        </Link>
-      </header>
-    </main>
+    <ResourcesPageClient resources={jobsWithCompanies} />
   )
 }
+
+export default ResourcesPage

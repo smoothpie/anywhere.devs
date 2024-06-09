@@ -1,0 +1,127 @@
+.jobContainer {
+  position: relative;
+  height: 100%;
+  // max-height: 300px;
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 1.5rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0 0px black, -5px -5px 0 1px white;
+  transition: box-shadow 0.2s;
+
+  h3 {
+    margin-top: 0.75rem;
+    line-height: 1.25;
+  }
+
+  p {
+    flex: 1;
+    line-height: 1.5;
+  }
+}
+
+// .job:after {
+//   content: '';
+//   background: transparent;
+//   border: 1px solid yellow;
+//   top: 7px;
+//   right: 7px;
+//   bottom: -7px;
+//   right: -7px;
+//   position: absolute;
+//   z-index: -1;
+// }
+
+.jobImage {
+  min-width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.jobText {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobDate {
+  margin-left: auto;
+  text-align: right;
+  min-width: 70px;
+}
+
+.price {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #efefef;
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0.5rem;
+  width: max-content;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #eeefea;
+}
+
+.adminToolbar {
+  display: none;
+}
+
+.jobContainer:hover {
+  cursor: pointer;
+
+  .job {
+    // box-shadow: none;
+    color: white;
+    background-color: #333;
+  }
+
+  .tag {
+    color: black;
+  }
+
+  .adminToolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: #efefef;
+    z-index: 1;
+
+    img {
+      margin-top: 2px;
+    }
+  }
+}
