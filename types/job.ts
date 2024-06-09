@@ -1,5 +1,5 @@
 export type Job = {
-  id: string;
+  id: number;
   title: string;
   link: string;
   description: string;
@@ -8,7 +8,7 @@ export type Job = {
   visaSponsorship: boolean;
   salary: string;
   skills: string[];
-  company: any;
+  company?: any;
 };
 
 export type JobFormValues = {

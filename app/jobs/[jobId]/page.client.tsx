@@ -7,12 +7,14 @@ import s from './JobPage.module.scss';
 import { Job, JobFormValues } from '@/types/job';
 
 type JobPageClient = {
-  currentJob: Job;
+  currentJob?: Job;
   company: any;
 }
 
 const JobPageClient = ({ currentJob, company }: JobPageClient) => {
   const router = useRouter()
+
+  if (!currentJob) return null;
 
   return (
     <div className={s.container}>
@@ -35,7 +37,7 @@ const JobPageClient = ({ currentJob, company }: JobPageClient) => {
           ))} */}
           <div className={s.tag}>{currentJob.type}</div>
           {currentJob.remoteIn === "TRUE" && <div className={s.tag}>Remote possible</div>}
-          {currentJob.visaSponsorship === "TRUE" && <div className={s.tag}>Visa sponsorship</div>}
+          {currentJob.visaSponsorship && <div className={s.tag}>Visa sponsorship</div>}
         </div>
       </div>
       <Link

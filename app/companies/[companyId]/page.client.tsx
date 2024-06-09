@@ -9,12 +9,14 @@ import s from './CompanyPage.module.scss';
 import { Company } from '@/types/job';
 
 type CompanyPageClient = {
-  currentCompany: Company;
+  currentCompany?: Company;
   jobs: any[];
 }
 
 const CompanyPageClient = ({ currentCompany, jobs }: CompanyPageClient) => {
   const router = useRouter()
+
+  if (!currentCompany) return null;
 
   const jobsWithCompany = jobs.map((job) => ({
     ...job,

@@ -2,18 +2,18 @@ import companies from '../../../data/companies.json';
 import jobs from '../../../data/jobs.json';
 import CompanyPageClient from "./page.client";
 
-async function getCompany(id: string) {
-  const res = await fetch(`${process.env.CLIENT_URL}/api/companys/${id}`, { cache: 'no-store' });
+// async function getCompany(id: string) {
+//   const res = await fetch(`${process.env.CLIENT_URL}/api/companys/${id}`, { cache: 'no-store' });
 
-  if (res.ok) {
-    const company = await res.json();
-    return company;
-  } else {
-    const errorText = await res.text();
-    console.log("Error fetching company:", errorText);
-    throw new Error("Error fetching company");
-  }
-}
+//   if (res.ok) {
+//     const company = await res.json();
+//     return company;
+//   } else {
+//     const errorText = await res.text();
+//     console.log("Error fetching company:", errorText);
+//     throw new Error("Error fetching company");
+//   }
+// }
 
 type EditCompanyPageProps = {
   params: {

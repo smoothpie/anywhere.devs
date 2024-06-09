@@ -18,7 +18,7 @@ const ResourcesPageClient = ({ resources }: ResourcesProps) => {
   const [filterValues, setFilterValues] = useState<any>({});
   const [filteredResults, setFilteredResults] = useState<any[]>(resources);
   const [activeTab, setActiveTab] = useState<string>("general");
-  const [activeJob, setActiveJob] = useState<number | null>(null);
+  const [activeJob, setActiveJob] = useState<any>(null);
   const { user } = useUser();
   const isAdmin = user && (user.publicMetadata?.role === 'admin');
 
