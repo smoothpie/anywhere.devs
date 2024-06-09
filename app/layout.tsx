@@ -8,8 +8,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Coding school',
-  description: 'Searchable collection of some random coding courses. Created during a Next.js, MongoDB, Prisma and Clerk tutorial.',
+  title: 'anywhere devs',
+  description: 'Remote software development jobs with the focus on worldwide. Search by skills, benefits, and more. Discover companies hiring remote developers.',
 }
 
 export default function RootLayout({
@@ -18,7 +18,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
           <Navbar />
@@ -26,6 +25,5 @@ export default function RootLayout({
           <Footer />
         </body>
       </html>
-    </ClerkProvider>
   )
 }
