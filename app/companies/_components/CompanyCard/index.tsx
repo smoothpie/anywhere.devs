@@ -6,7 +6,6 @@ import s from './CompanyCard.module.scss';
 
 type CompanyCardProps = {
   company: Company;
-  isAdmin?: boolean;
 }
 
 function nFormatter(num: number, digits: number) {
@@ -24,17 +23,10 @@ function nFormatter(num: number, digits: number) {
   return item ? (num / item.value).toFixed(digits).replace(regexp, "").concat(item.symbol) : "0";
 }
 
-const CompanyCard = ({ company, isAdmin }: CompanyCardProps) => {
+const CompanyCard = ({ company }: CompanyCardProps) => {
   return (
     <Link href={`/companies/${company.id}`}>
       <article className={s.companyContainer}>
-        {isAdmin && (
-          <div className={s.adminToolbar}>
-            <Link href={`/companies/${company.id}/edit`}>
-              <Image src="/edit.svg" alt="edit" width={20} height={20} />
-            </Link>
-          </div>
-        )}
         <div className={s.company}>
           <Image src={company.logo} alt={company.name} width={100} height={100} />
           <h3>{company.name}</h3>

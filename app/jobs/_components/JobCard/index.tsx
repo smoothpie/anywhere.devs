@@ -7,20 +7,12 @@ import s from './JobCard.module.scss';
 
 type JobCardProps = {
   job: Job;
-  isAdmin?: boolean;
   onClick: (job: Job) => void;
 }
 
-const JobCard = ({ job, isAdmin, onClick }: JobCardProps) => {
+const JobCard = ({ job, onClick }: JobCardProps) => {
   return (
     <article className={s.jobContainer} onClick={() => onClick(job)}>
-      {isAdmin && (
-        <div className={s.adminToolbar}>
-          <Link href={`/jobs/${job.id}/edit`}>
-            <Image src="/edit.svg" alt="edit" width={20} height={20} />
-          </Link>
-        </div>
-      )}
       <div className={s.job}>
         <div className={s.jobImage}>
           <Image src={job?.company?.logo} alt={job.title} width={100} height={100} />

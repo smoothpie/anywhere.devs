@@ -1,6 +1,5 @@
 "use client"
 import { useState, useEffect } from 'react';
-import { useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Header from '../jobs/_components/Header';
 import Sorter from '../jobs/_components/Sorter';
@@ -16,8 +15,6 @@ type CompaniesProps = {
 const ResourcesPageClient = ({ companies }: CompaniesProps) => {
   const [filterValues, setFilterValues] = useState<any>({});
   const [filteredResults, setFilteredResults] = useState<any[]>(companies);
-  const { user } = useUser();
-  const isAdmin = user && (user.publicMetadata?.role === 'admin');
 
   useEffect(() => {
     setFilteredResults(companies.filter(v => {
@@ -62,7 +59,7 @@ const ResourcesPageClient = ({ companies }: CompaniesProps) => {
 
         <div className={s.companies}>
           {filteredResults.filter(c => c.category !== "article").map((company) => (
-            <CompanyCard key={company.id} company={company} isAdmin={!!isAdmin} />
+            <CompanyCard key={company.id} company={company} />
           ))}
         </div>
       </section>

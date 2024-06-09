@@ -1,6 +1,5 @@
 "use client"
 import { useState } from 'react';
-import { useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Header from './_components/Header';
 import Sorter from './_components/Sorter';
@@ -19,8 +18,6 @@ const ResourcesPageClient = ({ resources }: ResourcesProps) => {
   const [filteredResults, setFilteredResults] = useState<any[]>(resources);
   const [activeTab, setActiveTab] = useState<string>("general");
   const [activeJob, setActiveJob] = useState<any>(null);
-  const { user } = useUser();
-  const isAdmin = user && (user.publicMetadata?.role === 'admin');
 
   console.log(activeJob, "STT")
 
@@ -57,7 +54,7 @@ const ResourcesPageClient = ({ resources }: ResourcesProps) => {
 
         <div className={!activeJob ? s.jobs : `${s.jobs} ${s.jobsNarrow}`}>
           {filteredResults.map((job, i) => (
-            <JobCard key={job.ID} job={job} isAdmin={!!isAdmin} onClick={(job) => setActiveJob(job)} />
+            <JobCard key={job.ID} job={job} onClick={(job) => setActiveJob(job)} />
           ))}
         </div>
 
