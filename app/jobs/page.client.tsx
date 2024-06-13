@@ -54,12 +54,21 @@ const ResourcesPageClient = ({ resources }: ResourcesProps) => {
 
         <div className={!activeJob ? s.jobs : `${s.jobs} ${s.jobsNarrow}`}>
           {filteredResults.map((job, i) => (
-            <JobCard key={job.ID} job={job} onClick={(job) => setActiveJob(job)} />
+            <>
+              <JobCard key={job.ID} job={job} onClick={(job) => setActiveJob(job)} />
+              {activeJob?.id === job.id && (
+                <div className={s.activeJobMobile}>
+                  <ActiveJob job={activeJob} onClose={() => setActiveJob(null)} />
+                </div>
+              )}
+            </>
           ))}
         </div>
 
         {activeJob !== null && (
-          <ActiveJob job={activeJob} onClose={() => setActiveJob(null)} />
+          <div className={s.activeJobDesktop}>
+            <ActiveJob job={activeJob} onClose={() => setActiveJob(null)} />
+          </div>
         )}
       </section>
     </div>

@@ -26,18 +26,6 @@
   }
 }
 
-// .job:after {
-//   content: '';
-//   background: transparent;
-//   border: 1px solid yellow;
-//   top: 7px;
-//   right: 7px;
-//   bottom: -7px;
-//   right: -7px;
-//   position: absolute;
-//   z-index: -1;
-// }
-
 .jobImage {
   min-width: 100px;
   height: 100px;
@@ -69,7 +57,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  margin-top: 1.25rem;
+  margin-top: 1rem;
 }
 
 .tags {
@@ -123,5 +111,27 @@
     img {
       margin-top: 2px;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .job {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  // .jobImage {
+  //   min-width: 80px;
+  //   width: 80px;
+  //   height: 80px;
+
+  //   img {
+  //     width: 100%;
+  //     height: 100%;
+  //     object-fit: cover;
+  //   }
+  // }
+  .jobDate {
+    margin-left: 0;
+    text-align: left;
   }
 }
